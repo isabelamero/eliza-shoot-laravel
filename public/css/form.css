@@ -1,0 +1,87 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  background-color: #000; /* Fundo preto para todo o formulário */
+  padding: 20px;
+  border-radius: 10px;
+  border: 3px solid #fff; /* Adiciona a borda branca */
+}
+
+.container-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-radio {
+  display: flex;
+}
+
+.container-radio div {
+  padding: 10px;
+}
+
+form label {
+  color: #fff; /* Cor do texto em branco */
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-family: 'Dancing Script', cursive; /* Aplica a fonte Dancing Script */
+  font-size: 20px; /* Aumenta o tamanho da fonte */
+}
+
+form input,
+form select,
+form textarea { /* Adiciona form textarea para os estilos aplicados */
+  border-radius: 10px;
+  border: 3px solid #fff; /* Borda branca */
+  padding: 10px;
+  margin-bottom: 10px;
+  transition: 0.5s;
+  background-color: #fff; /* Fundo branco */
+  color: #000; /* Texto preto */
+  font-family: 'Dancing Script', cursive; /* Aplica a fonte Dancing Script */
+  font-size: 18px; /* Aumenta o tamanho da fonte */
+}
+
+form input[type='file'] {
+  color: #000; /* Texto preto */
+  width: 100%; /* Ajusta a largura para 100% do contêiner */
+  box-sizing: border-box; /* Inclui o padding e a borda na largura total */
+  padding: 10px; /* Adiciona padding para alinhamento */
+}
+
+form input::file-selector-button {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff; /* Botão branco */
+  color: #000; /* Texto preto */
+  font-family: 'Dancing Script', cursive; /* Aplica a fonte Dancing Script */
+  font-size: 18px; /* Aumenta o tamanho da fonte */
+}
+
+form textarea {
+  height: 150px; /* Ajuste a altura conforme necessário */
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus { /* Adiciona form textarea para os estilos aplicados */
+  border: 3px solid #EBC181;
+  outline: none;
+}
+
+.btn.btn-success, .btn.btn-info {
+  background-color: #EBC181;
+  color: #333B1E;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: 'Dancing Script', cursive; /* Aplica a fonte Dancing Script */
+  font-size: 20px; /* Aumenta o tamanho da fonte */
+  width: 200px; /* Ajuste a largura conforme necessário */
+  height: auto; /* Ajusta a altura conforme necessário */
+  align-self: center; /* Centraliza o botão */
+}

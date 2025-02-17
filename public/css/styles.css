@@ -1,0 +1,75 @@
+body {
+  background-color: #000; /* Fundo preto */
+  color: #fff;
+  font-family: 'Dancing Script', cursive; /* Aplica a fonte Dancing Script */
+  font-size: 18px; /* Tamanho base da fonte */
+}
+
+.navbar {
+  background-color: #000 !important; /* Barra superior preta */
+}
+
+.navbar-brand img {
+  height: auto;
+  width: 150px; /* Ajuste o tamanho conforme necessário */
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+  font-size: 24px; /* Aumenta o tamanho da fonte */
+  font-family: 'Dancing Script', cursive; /* Aplica a fonte Dancing Script */
+}
+
+.gallery {
+  text-align: center;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Grade 2x2 */
+  gap: 20px; /* Espaço entre as fotos */
+}
+
+.gallery img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #fff; /* Borda branca */
+}
+
+.photo-item {
+  text-align: center;
+}
+
+.photo-item h3 {
+  margin-top: 10px;
+  font-size: 32px; /* Aumenta o tamanho da fonte */
+  font-family: 'Dancing Script', cursive; /* Aplica a fonte Dancing Script */
+}
+
+.photo-item p {
+  margin-top: 5px;
+  font-size: 30px; /* Aumenta o tamanho da fonte */
+  font-family: 'Dancing Script', cursive; /* Aplica a fonte Dancing Script */
+}
+
+.center-text {
+  text-align: center; /* Centraliza o texto */
+  margin-bottom: 40px; /* Adiciona mais espaço entre o texto e as imagens */
+  width: 100%; /* Ocupa todo o espaço disponível */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Ajuste o valor conforme necessário */
+  font-size: 30px; /* Aumenta o tamanho da fonte */
+  font-family: 'Dancing Script', cursive; /* Aplica a fonte Dancing Script */
+}
+
+h2 {
+  font-size: 36px; /* Aumenta o tamanho da fonte */
+}
+
+h3 {
+  font-size: 32px; /* Aumenta o tamanho da fonte */
+}
