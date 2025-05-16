@@ -13,8 +13,15 @@ permissions:
   contents: read
 
 jobs:
-  tests:
+  test:
     runs-on: ubuntu-latest
+    env:
+      DB_CONNECTION: pgsql
+      DB_HOST: localhost
+      DB_PORT: 5432
+      DB_DATABASE: nome_do_banco
+      DB_USERNAME: usuario_do_banco
+      DB_PASSWORD: senha_do_banco
 
     strategy:
       fail-fast: true
