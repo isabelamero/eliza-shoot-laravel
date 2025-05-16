@@ -19,9 +19,9 @@ jobs:
       DB_CONNECTION: pgsql
       DB_HOST: localhost
       DB_PORT: 5432
-      DB_DATABASE: nome_do_banco
-      DB_USERNAME: usuario_do_banco
-      DB_PASSWORD: senha_do_banco
+      DB_DATABASE: elizashoot
+      DB_USERNAME: postgres
+      DB_PASSWORD: postgres
 
     strategy:
       fail-fast: true
